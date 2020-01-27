@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
 h1,h2,h3{ font-family: 'Poppins', cursive; }
 
-p{ line-height: 1.6; font-size: 1em; font-weight: 400; color: #777; }
+p{ line-height: 1.6; font-size: 1em; font-weight: 400; color: rgb(31, 19, 19); }
 
 h1{ font-size: 4em; line-height: 1; }
 h2{ font-size: 2.2em; line-height: 1.1; }
@@ -86,12 +86,12 @@ b.max-bold{ font-weight: 700; }
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
 
-.section{ padding: 100px 0 50px; border-bottom: 1px solid #ddd; }
+.section{ padding: 100px 0 50px; border-bottom: 1px solid rgba(1, 1, 37, 0.295); }
 
 .section .heading{ margin-bottom: 60px; display: inline-block; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin: 0 auto 20px; display: block; background: rgb(255, 202, 110); }
+	margin: 0 auto 20px; display: block; background:rgba(223, 2, 2, 0.363); }
 	
 .margin-t-10{ margin-top: 10px; }
 .margin-t-30{ margin-top: 30px; }
@@ -105,9 +105,9 @@ b.max-bold{ font-weight: 700; }
 
 .font-yellow{ color: rgb(255, 202, 110); }
 
-.font-semi-white{ color: #ddd; }
+.font-semi-white{ color: rgba(1, 1, 37, 0.836); }
 
-.font-lite-black{ color: #999; }
+.font-lite-black{ color: rgba(1, 1, 37, 0.363); }
 
 .center-text{ text-align: center; }
 
@@ -118,7 +118,7 @@ b.max-bold{ font-weight: 700; }
 --------------------------------- */
 
 .intro-section{ padding: 50px 0; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../static/images/profile-1-250x250.jpg); }
+	z-index: 1;background-image: url(../../static/images/food/food\ 3.png); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
@@ -146,10 +146,10 @@ b.max-bold{ font-weight: 700; }
 
 .intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px; 
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; text-align: center;
-	background: #887392; color: #fff; }
+	background: rgba(255, 202, 110, 0.514); color: rgb(1, 1, 37); }
 
 .intro .social-icons > li > a:after{ content: ''; position: absolute; bottom: 0; left: 0; right: 0;
-	top: 0; z-index: -1; border-radius: 20px; background: rgb(0, 153, 204); 
+	top: 0; z-index: -1; border-radius: 20px; background: rgba(255, 202, 110, 0.753); 
 	-webkit-transition: all .2s ease; transition: all .2s ease;
 	-webkit-transform: scale(0); transform: scale(0); }
 
@@ -157,7 +157,7 @@ b.max-bold{ font-weight: 700; }
 
 
 .intro .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
-	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: rgba(255, 202, 110, 0.5); color: #fff; 
+	box-shadow: inset 0 0px 4px rgba(0,0,0,.3); background: rgba(255, 202, 110, 0.829); color: rgb(1, 1, 37); 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
 .intro .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); }
@@ -166,14 +166,14 @@ b.max-bold{ font-weight: 700; }
 /* ---------------------------------
 4. ABOUT SECTION
 --------------------------------- */
-
+.about-section{ background-color:  rgba(1, 1, 37, 0.363);}
 /* COUNTER SECTION */
 
 .counter{ position: relative; }
 	
-.counter .title{ color: rgb(255, 202, 110); text-align: right; margin-right: 130px; }
+.counter .title{ color: rgba(1, 1, 37, 0.801); text-align: right; margin-right: 130px; }
 
-.counter .desc{ position: absolute; bottom: 4px; right: 0px; width: 110px; }
+.counter .desc{ position: absolute; bottom: 4px; right: 10px; width: 110px; }
 
 
 
@@ -181,14 +181,14 @@ b.max-bold{ font-weight: 700; }
 5. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #FAF5FC; }
+.experience-section{ background:  rgba(1, 1, 37, 0.363); }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; }
 
 .experience .list > li > span{ position: relative; padding-left: 20px; }
 
 .experience .list > li span:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
-	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #555; }
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid rgb(82, 62, 62); }
 
 	
 
@@ -196,13 +196,15 @@ b.max-bold{ font-weight: 700; }
 6. PORFOLIO SECTION
 --------------------------------- */
 
+.portfolio-section{ background:  rgba(1, 1, 37, 0.363); }
+
 .portfolio-section{ position: relative; }
 
 .portfolio-section .portfolioFilter{ margin-bottom: 60px; color: #666; }
 
 .portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
 
-.portfolio-section .portfolioFilter a.current{ color: rgb(255, 202, 110); }
+.portfolio-section .portfolioFilter a.current{ color:  rgba(255, 202, 110, 0.979); }
 
 .portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
 
@@ -215,6 +217,8 @@ b.max-bold{ font-weight: 700; }
 /* ---------------------------------
 7. EDUCATION SECTION
 --------------------------------- */
+
+.education-section{ background:  rgba(1, 1, 37, 0.363); }
 
 .education-wrapper{ position: relative; overflow: hidden; text-align: center; }
 
@@ -231,7 +235,7 @@ b.max-bold{ font-weight: 700; }
 
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
-	box-shadow: 0 0 0 8px rgba(0, 153, 204, 0.4); background: rgb(255, 202, 110); }
+	box-shadow: 0 0 0 8px rgba(0, 153, 204, 0.4); background: rgba(1, 1, 37, 0.801); }
 	
 .education-wrapper .education.left:after{ right: -8px; }
 
@@ -242,14 +246,16 @@ b.max-bold{ font-weight: 700; }
 8. QUOTO SECTION
 --------------------------------- */
 
+
+
 .quoto-section{ padding: 80px 0; position: relative; background-size: cover; 
-	z-index: 1; background-image: url(../../images/slider-4-1920x600.jpg); color: #fff; }
+	z-index: 1; background-image: url(../../images/slider-4-1920x600.jpg); color:  rgba(1, 1, 37, 0.363); }
 
 .quoto-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .8); }
 	
 .quoto-section .icon{ margin-bottom: 20px; height: 40px; width: 40px; line-height: 40px; 
-	border-radius: 30px; background: rgb(0, 153, 204); color: #fff; }
+	border-radius: 30px; background: rgba(1, 1, 37, 0.555); color:  rgba(1, 1, 37, 0.363); }
 
 	
 
@@ -257,12 +263,15 @@ b.max-bold{ font-weight: 700; }
 9. SKILLS SECTION
 --------------------------------- */
 
+.skills-section{ background:  rgba(1, 1, 37, 0.363); }
+
 .skills-section .expert{ margin-top: 10px; display: inline-block; padding: 1px 25px 0; 
-	border-radius: 5px; background: rgb(0, 153, 204); color: #fff; }
+	border-radius: 5px; background: rgba(1, 1, 37, 0.555); color:  rgba(1, 1, 37, 0.363); }
 
 	
 /* LINE PROGRESSBAR */
-	
+.font-yellow{ color: rgb(255, 202, 110); }
+.line-progress{color: rgba(1, 1, 37, 0.363); }
 .line-progress{ position: relative; padding-bottom: 25px; }
 
 .line-progress .progressbar-text{ position: absolute; bottom: 0; right: 0; font-size: 1.1em; 
@@ -273,8 +282,10 @@ b.max-bold{ font-weight: 700; }
 
 /* REDIAL PROGRESS SECTION */
 
+.font-yellow{ color: rgb(255, 202, 110); }
+
 .radial-progress-section{ border: 0; position: relative; background-size: cover; 
-	z-index: 1; background-image: url(../../images/slider-4-1920x600.jpg); color: #fff; }
+	z-index: 1; background-image: url(../../images/slider-4-1920x600.jpg); color:  rgba(1, 1, 37, 0.363); }
 
 .radial-progress-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; 
 	left: 0; right: 0; background: rgba(0,0,0, .8); }
@@ -287,7 +298,7 @@ b.max-bold{ font-weight: 700; }
 .radial-progress .progressbar-text:after{ content:'%'; }
 
 .radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
-	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #fff; }
+	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color:  rgba(248, 189, 88, 0.712); }
 
 
 
@@ -295,5 +306,5 @@ b.max-bold{ font-weight: 700; }
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{ text-align: center; padding: 30px 0; background: rgba(255, 202, 110, 0.979); }
 
